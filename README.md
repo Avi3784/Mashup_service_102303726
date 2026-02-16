@@ -23,12 +23,6 @@
 - **Email sending:** smtplib (Gmail SMTP)
 - **Frontend:** Bootstrap + simple HTML form
 
-## Project Structure
-mashup_service/
-├── 102303726_web.py          # Main Flask application
-├── templates/
-│   └── index.html            # HTML form page
-└── README.md                 # This file
 ## Requirements
 
 - Python 3.8+
