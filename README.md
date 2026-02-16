@@ -37,7 +37,7 @@ text## Requirements
 
 ### Python Packages
 
-```bash
+
 
 How to Run
 
@@ -68,4 +68,4 @@ Screenshots: form page + success message + received email with ZIP
 
 
 
-```
+
