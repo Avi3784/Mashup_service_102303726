@@ -11,11 +11,11 @@ from email.mime.base import MIMEBase
 from email import encoders
 import re
 
-# Set template folder explicitly
+\
 app = Flask(__name__, template_folder='templates')
 
 SENDER_EMAIL = "aviralbhargava30@gmail.com"
-APP_PASSWORD = "your16digitapppassword"  # CHANGE TO YOUR REAL GMAIL APP PASSWORD
+APP_PASSWORD = "password"  
 
 ROLLNO = "102303726"
 OUTPUT_MP3 = f"{ROLLNO}-mashup.mp3"
