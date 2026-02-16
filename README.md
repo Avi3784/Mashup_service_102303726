@@ -29,7 +29,7 @@ mashup_service/
 ├── templates/
 │   └── index.html            # HTML form page
 └── README.md                 # This file
-text## Requirements
+## Requirements
 
 - Python 3.8+
 - FFmpeg installed and added to system PATH
