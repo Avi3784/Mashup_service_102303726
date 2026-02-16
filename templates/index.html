@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mashup Service - 102303726</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>body{background:#f8f9fa}.container{max-width:600px;margin-top:50px;}</style>
+</head>
+<body>
+<div class="container">
+    <div class="card shadow">
+        <div class="card-header bg-primary text-white">
+            <h3>Mashup Generator</h3>
+        </div>
+        <div class="card-body">
+            <form action="/generate" method="POST">
+                <div class="mb-3">
+                    <label>Singer Name</label>
+                    <input type="text" class="form-control" name="singer" value="Sharry Maan" required>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <label>Number of Videos (N > 10)</label>
+                        <input type="number" class="form-control" name="N" value="15" min="11" required>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label>Clip Duration (Y sec > 20)</label>
+                        <input type="number" class="form-control" name="Y" value="25" min="21" required>
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label>Your Email ID</label>
+                    <input type="email" class="form-control" name="email" placeholder="your@email.com" required>
+                </div>
+                <button type="submit" class="btn btn-success w-100">Generate & Send ZIP</button>
+            </form>
+        </div>
+    </div>
+</div>
+</body>
+</html>
